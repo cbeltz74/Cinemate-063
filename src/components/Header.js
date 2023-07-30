@@ -22,7 +22,7 @@ export const Header = () => {
   return (
     <header>
       
-      <nav className="bg-white border-gray-200 dark:bg-gray-900">
+      <nav className="bg-white border-b-2 border-gray-200 dark:bg-gray-900 dark:border-b-1 dark:border-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="" className="flex items-center">
             <img src={Logo} className="h-8 mr-3" alt="CineMate Logo" />
@@ -58,7 +58,7 @@ export const Header = () => {
           </button>
         </div>
 
-          <div id="nav-links" className={ `${hidden ? "hidden" : "" } items-center justify-between w-full md:flex md:w-auto md:order-1`} id="navbar-search">
+          <div className={ `${hidden ? "hidden" : "" } items-center justify-between w-full md:flex md:w-auto md:order-1`} id="navbar-search">
             <div className="relative mt-3 md:hidden">
               <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                 <svg className="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
