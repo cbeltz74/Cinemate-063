@@ -17,7 +17,7 @@ export const Footer = () => {
                 <a href="#"  target="_blank" className="mr-4 hover:underline md:mr-6">YouTube</a>
             </li>
             <li>
-                <a href="3"  target="_blank" className="hover:underline">GitHub</a>
+                <a href="#"  target="_blank" className="hover:underline">GitHub</a>
             </li>
         </ul>
         </div>
