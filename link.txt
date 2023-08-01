@@ -16,6 +16,7 @@ https://api.themoviedb.org/3/movie/top_rated?api_key=b962ccd28bc15575e4959ab603d
 
 Upcoming:
 https://api.themoviedb.org/3/movie/upcoming?api_key=b962ccd28bc15575e4959ab603d9f48d
+https://api.themoviedb.org/3/movie/upcoming
 
 Search
 https://api.themoviedb.org/3/search/movie?api_key=b962ccd28bc15575e4959ab603d9f48d?query={movie_name}
